@@ -1,0 +1,19 @@
+{
+  "name": "recording-playback-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.452.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "log-timestamp": "^0.3.0",
+    "s3-download-stream": "^1.1.1"
+  }
+}
